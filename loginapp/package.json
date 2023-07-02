@@ -1,5 +1,5 @@
 {
-  "name": "loginapp",
+  "name": "logins",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,12 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@headlessui/react": "1.7.15",
-    "@heroicons/react": "2.0.18",
+    "@headless/react": "1.7.15",
+    "@heroics/react": "2.0.18",
     "@tailwind's/forms": "0.5.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss-ui": "0.2.0"
+    "tailwind's-ui": "0.2.0"
   },
   "devDependencies": {
     "@types/react": "18.0.37",
@@ -25,7 +25,7 @@
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-react-refresh": "0.3.4",
-    "tailwindcss": "^3.3.2",
+    "tailwind's": "^3.3.2",
     "vite": "4.3.9",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4"

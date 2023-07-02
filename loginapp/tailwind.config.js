@@ -1,5 +1,4 @@
-
-// /** @type {import('tailwind's').Config} */
+// /** @type {import('tailwindcss').Config} */
 // export const content = [
 //     "./index.html",
 //     "./src/**/*.{js,ts,jsx,tsx}",
@@ -8,36 +7,42 @@
 //     extend: {},
 // };
 // export const plugins = [
-//     require("@tailwind's/forms"),
+//     require("@tailwindcss/forms"),
 // ];
-// import { forms } from "@tailwind's/forms";
+// import { forms } from "@tailwindcss/forms";
 
-// module.exports = {
-//   content: [
-//     "./index.html",
-//     "./src/**/*.{js,ts,jsx,tsx}",
-//   ],
-//   theme: {
-//     extend: {},
-//   },
-//   plugins: [
-//     forms,
-//   ],
+// /** @type {import('tailwindcss').Config} */
+// export const content = [
+//   "./index.html",
+//   "../src/*.{js,ts,jsx,tsx}",
+// ];
+
+// export const theme = {
+//   extend: {},
 // };
 
-/** @type {import('tailwinds').Config} */
-const tailwindConfig = {
-    content: [
-      "./index.html",
-      "./src/**/*.{js,ts,jsx,tsx}",
-    ],
-    theme: {
-      extend: {},
-    },
-    plugins: [
-      require(),
-    ],
-  };
-  
-  export default tailwindConfig;
-//module.exports = {...require('./default-config')};
+// export const plugins = [
+//   forms,
+// ];
+// import { forms } from "@tailwindcss/forms";
+// /** @type {import('tailwindcss').Config} */
+
+// export const purge = ['./index.html', '../src/*.{js,jsx,ts,tsx}'];
+// export const darkMode = true;
+// export const theme = {
+//     extend: {},
+// };
+// export const variants = {};
+// export const plugins = [
+//     forms
+// ];
+
+export const purge = ['./src/**/*.{js,jsx,ts,tsx}', './index.html'];
+export const darkMode = false;
+export const theme = {
+    extend: {},
+};
+export const variants = {
+    extend: {},
+};
+export const plugins = [];
